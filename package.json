@@ -1,6 +1,6 @@
 {
   "name": "wrap-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wrap 'before' and 'after' funcitons.'before' can stop original function from executing.",
   "main": "lib/index.js",
   "files": [
