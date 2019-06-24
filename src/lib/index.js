@@ -9,7 +9,7 @@
  */
 export default function wraphook (opt) {
   opt = opt || {};
-  if(!('before' in opt)){
+  if(!('before' in opt) || opt.before === undefined){
     opt.before = true;
   }
   const { before, after } = opt;
